@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.container .new{
+    
+}
+.container .logo-part{
+    width: 20%;
+    float: left;
+    /* overflow: hidden; */
+}
+.container .logo-part img{
+    padding: 15px 0;
+    max-width: 100%;
+}
+.container .nav{
+    width: 80%;
+    float: left;
+}
+.container .nav ul{
+    padding: 0;
+}
+.container .nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+.container .nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 15px 40px;
+}
+.banner{
+   padding: 100px 0; 
+}
+.banner img{
+    max-width: 100%;
+}
+.heading-content{
+    width: 800px;
+    margin: auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.heading-content h3{
+    color: #aea6a6;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.heading-content h1{
+    color: #666;
+    font-size: 25px;
+    /* padding: 15px 0; */
+}
+.heading-content p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.image-part{
+    padding: 45px 0;
+}
+.image-part .one{
+    width: 50%;
+    float: left;
+    /* padding: 27px; */
+    padding-right: 15px;
+}
+.image-part .one img{
+    /* padding: 0px 34px; */
+    max-width: 100%;
+}
+.image-part .one h4{
+    padding: 15px 0;
+    color: #aea6a6;
+}
+.image-part .one h1{}
+.image-part .one p{
+    text-align: justify;
+}
+
+.image-part .two{
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+}
+.image-part .two img{
+    max-width: 100%;
+
+}
+.image-part .two h4{
+    padding: 15px 0;
+    color: #aea6a6;
+}
+.image-part .two h1{}
+.image-part .two p{
+    text-align: justify;
+}
+footer{
+    overflow: hidden;
+    background-color: #aeaec5;
+    /* margin: auto; */
+    text-align: center;
+}
+.fot-one{
+    width: 50%;
+    float: left;
+    padding: 50px 0;
+}
+.fot-one ul{
+    padding: 0;
+}
+.fot-one ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.fot-one ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 0 15px;
+}
